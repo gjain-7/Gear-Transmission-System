@@ -26,7 +26,7 @@ This system is designed to be easy to use. Here are the steps to get it running:
 2. **Modify the Code**: If necessary, modify the GPIO pin assignments in the code to match your setup. This should be a trivial task if you are familiar with the Raspberry Pi's GPIO layout.\
 3. **File Transfer**: Transfer the `slc.py`, `bdd.csv`, and `control.csv` files to your Raspberry Pi.
 4. **Run the Code**: You can then run the script using the following command in the terminal:
-    ```bash
+    ```sh
     python3 slc.py
     ```
 
@@ -34,14 +34,15 @@ This system is designed to be easy to use. Here are the steps to get it running:
 For a detailed understanding of the system's operation, refer to the `slides.pdf` file, which contains state diagrams.
 
 ### Configuration files
-`bdd.csv` and `control.csv` files contain the Binary Decision Diagram (BDD) table and control signals, respectively.
+- `bdd.csv`: Binary Decision Diagram (BDD) table
+- `control.csv`: control signals
 
 ## Demo
-![[saasa](./media/demo.mp4)(./media/demo.mp4)]
+https://github.com/gjain-7/Gear-Transmission-System/assets/72644006/2539843f-c446-409f-a20a-b3537ea253b8
 
 ## Project Submission
 
-This project is submitted as part of the coursework for _Cyber Physical systems (CS 426)_. It is a collaborative effort between the following team members:
+This project is submitted as part of the coursework for _Cyber Physical Systems (CS 426)_. It is a collaborative effort between the following team members:
 
 - Gaurav Jain - [@gjain-7](https://github.com/gjain-7)
 - R. Navya Harshitha - [@NavyaHarshitha](https://github.com/NavyaHarshitha)
